@@ -33,13 +33,13 @@ import { FaUser, FaLock, FaEnvelope } from 'react-icons/fa';
 
         <div className='remember-forgot'>
           <label><input type='checkbox' />Remember me</label>
-          <button type='submit'>Forgot Password</button>
+          <a href='/login'>Forgot password?</a>
         </div>
 
         <button type='submit'>Login</button>
         
         <div className='register-link'>
-          <p>Don't have an account? <a href='#' onClick={registerLink}>Register</a></p>
+          <p>Don't have an account? <a href='/login' onClick={registerLink}>Register</a></p>
         </div>
       </form>
       </div>
