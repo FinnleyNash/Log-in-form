@@ -6,6 +6,7 @@ import { FaUser, FaLock, FaEnvelope } from 'react-icons/fa';
 
   const [action, setAction] = useState('');
 
+
   const registerLink = () => {
     setAction(' active');
   };
