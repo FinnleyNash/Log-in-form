@@ -68,7 +68,7 @@ import { FaUser, FaLock, FaEnvelope } from 'react-icons/fa';
         <button type='submit'>Register</button>
         
         <div className='register-link'>
-          <p>Already have an account? <a href='#' onClick={loginLink}>Login</a></p>
+          <p>Already have an account? <button onClick={loginLink}>Login</button></p>
         </div>
       </form>
       </div>
