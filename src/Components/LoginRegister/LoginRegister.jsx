@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './LoginRegister.css';
 import { FaUser, FaLock, FaEnvelope } from 'react-icons/fa';
-import { Link } from 'react-router-dom';
+
 
  const LoginRegister = () => {
 
@@ -35,14 +35,14 @@ import { Link } from 'react-router-dom';
 
         <div className='remember-forgot'>
           <label><input type='checkbox' />Remember me</label>
-          <Link to='/forgot-password'>Forgot password?</Link>
+          <a href='/'>Forgot password?</a>
         </div>
 
         <button type='submit'>Login</button>
         
         <div className='register-link'>
           <p>Don't have an account? 
-          <Link to='/register' onClick={registerLink}>Register</Link></p>
+          <a href='/' onClick={registerLink}>Register</a></p>
         </div>
       </form>
       </div>
@@ -71,7 +71,7 @@ import { Link } from 'react-router-dom';
         
         <div className='register-link'>
           <p>Already have an account?
-          <Link to='/login' onClick={loginLink}>Login</Link></p>
+          <a href='/' onClick={loginLink}>Login</a></p>
         </div>
       </form>
       </div>
